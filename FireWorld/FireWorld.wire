@@ -1,0 +1,368 @@
+{
+	"formatVersion": {
+		"major": 1,
+		"minor": 1,
+		"patch": 0
+	},
+	"patch": {
+		"connections": [
+			{
+				"from": [
+					3,
+					"output"
+				],
+				"to": [
+					4,
+					"input"
+				]
+			},
+			{
+				"from": [
+					5,
+					"seconds"
+				],
+				"to": [
+					3,
+					"time"
+				]
+			},
+			{
+				"from": [
+					58,
+					"output"
+				],
+				"to": [
+					61,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					59,
+					"output"
+				],
+				"to": [
+					61,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					61,
+					"output"
+				],
+				"to": [
+					3,
+					"mouse"
+				]
+			}
+		],
+		"inputOrder": [
+			58,
+			59
+		],
+		"meta": {
+			"author": "Schmiddi",
+			"category": "source",
+			"description": "",
+			"displayName": "FireWorld",
+			"editor": {
+				"branch": "",
+				"name": "Wire",
+				"version": "7.13.2.17774"
+			},
+			"identifier": "652d8de8-25a8-49c4-9885-28509dc23e0b",
+			"licenseName": "",
+			"mail": "",
+			"quality": 32856,
+			"resolution": {
+				"height": 1080,
+				"width": 1920
+			},
+			"thumbnail": "",
+			"url": "",
+			"vendor": ""
+		},
+		"nextNodeId": 62,
+		"nodes": {
+			"3": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"fragment-shader": {
+						"type": "resource",
+						"value": "ecedffe74df3b5935b237ea2c268bb80"
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 81,
+					"width": 195,
+					"x": 459.2843017578125,
+					"y": 415.46844482421875
+				},
+				"class": {
+					"id": "77697265-4576-4C11-899B-6F11F3275D36",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"mouse": {
+						"type": "float2",
+						"value": [
+							-1.89999997615814209,
+							0
+						]
+					},
+					"time": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"bypass"
+				],
+				"name": "ISF"
+			},
+			"4": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 132,
+					"x": 711.8177490234375,
+					"y": 415.46844482421875
+				},
+				"class": {
+					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Texture Out"
+			},
+			"5": {
+				"attributes": {},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": 155.5108795166015625,
+					"y": 383.05206298828125
+				},
+				"class": {
+					"id": "77697265-896F-4C6D-AF54-35624F8E23D8",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {},
+				"hidden": [],
+				"name": "Transport Time"
+			},
+			"58": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 156.417449951171875,
+					"y": 603.5223388671875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "x"
+			},
+			"59": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 155.54046630859375,
+					"y": 730.37371826171875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "y"
+			},
+			"61": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"pattern": {
+						"type": "choice",
+						"value": "f1-f1"
+					}
+				},
+				"bounds": {
+					"height": 81,
+					"width": 195,
+					"x": 433.6552734375,
+					"y": 628.0399169921875
+				},
+				"class": {
+					"id": "77697265-EC45-40D3-BEB6-C68B46E800BA",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "float",
+						"value": 0
+					},
+					"input1": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [],
+				"name": "Pack"
+			}
+		},
+		"ui": {
+			"camera": {
+				"x": -299.98779296875,
+				"y": 337.6002197265625,
+				"zoom": 0.53023058176040649
+			},
+			"selection": []
+		}
+	},
+	"resources": {
+		"isf": {
+			"ecedffe74df3b5935b237ea2c268bb80": {
+				"local": true,
+				"name": "isf",
+				"path": "isf.isf"
+			}
+		}
+	},
+	"ui": {
+		"audio": {
+			"routing": {
+				"in": {},
+				"out": []
+			}
+		},
+		"deviceConnections": {
+			"input": {}
+		},
+		"transport": {
+			"bpm": 120,
+			"time-signature": [
+				4,
+				4
+			]
+		},
+		"video": {
+			"routing": {
+				"out": {
+					"Display 1": null,
+					"Display 2": null
+				}
+			}
+		}
+	}
+}

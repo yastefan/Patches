@@ -1,0 +1,693 @@
+{
+	"formatVersion": {
+		"major": 1,
+		"minor": 1,
+		"patch": 0
+	},
+	"patch": {
+		"connections": [
+			{
+				"from": [
+					3,
+					"output"
+				],
+				"to": [
+					4,
+					"input"
+				]
+			},
+			{
+				"from": [
+					5,
+					"seconds"
+				],
+				"to": [
+					3,
+					"time"
+				]
+			},
+			{
+				"from": [
+					6,
+					"output"
+				],
+				"to": [
+					3,
+					"brightness"
+				]
+			},
+			{
+				"from": [
+					7,
+					"output"
+				],
+				"to": [
+					3,
+					"ray_brightness"
+				]
+			},
+			{
+				"from": [
+					8,
+					"output"
+				],
+				"to": [
+					3,
+					"spot_brightness"
+				]
+			},
+			{
+				"from": [
+					9,
+					"output"
+				],
+				"to": [
+					3,
+					"ray_density"
+				]
+			},
+			{
+				"from": [
+					10,
+					"output"
+				],
+				"to": [
+					3,
+					"curvature"
+				]
+			},
+			{
+				"from": [
+					11,
+					"output"
+				],
+				"to": [
+					3,
+					"angle"
+				]
+			},
+			{
+				"from": [
+					12,
+					"output"
+				],
+				"to": [
+					3,
+					"freq"
+				]
+			},
+			{
+				"from": [
+					13,
+					"output"
+				],
+				"to": [
+					3,
+					"warp"
+				]
+			}
+		],
+		"inputOrder": [
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13
+		],
+		"meta": {
+			"author": "Schmiddi",
+			"category": "source",
+			"description": "",
+			"displayName": "BlackHole",
+			"editor": {
+				"branch": "",
+				"name": "Wire",
+				"version": "7.13.2.17774"
+			},
+			"identifier": "a1bd8d81-ca68-4fd1-a93a-fa05641952a3",
+			"licenseName": "",
+			"mail": "",
+			"quality": 32856,
+			"resolution": {
+				"height": 1080,
+				"width": 1920
+			},
+			"thumbnail": "",
+			"url": "",
+			"vendor": ""
+		},
+		"nextNodeId": 14,
+		"nodes": {
+			"10": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1080
+					},
+					"min": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 923.46844482421875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 763.74139404296875
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Curvature"
+			},
+			"11": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 2
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 1025.468505859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.50344699621200562
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Angle"
+			},
+			"12": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 10
+					},
+					"min": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 1127.468505859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 2.64482402801513672
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Freq"
+			},
+			"13": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 1229.468505859375
+				},
+				"class": {
+					"id": "77697265-999C-4F8B-8B9D-3646DC68AA69",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "bool",
+						"value": true
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Warp"
+			},
+			"3": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"fragment-shader": {
+						"type": "resource",
+						"value": "ecedffe74df3b5935b237ea2c268bb80"
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 250,
+					"width": 195,
+					"x": 459.2843017578125,
+					"y": 415.46844482421875
+				},
+				"class": {
+					"id": "77697265-4576-4C11-899B-6F11F3275D36",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"angle": {
+						"type": "float",
+						"value": 0.50344699621200562
+					},
+					"brightness": {
+						"type": "float",
+						"value": 3.12069106101989746
+					},
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"curvature": {
+						"type": "float",
+						"value": 763.74139404296875
+					},
+					"freq": {
+						"type": "float",
+						"value": 2.64482402801513672
+					},
+					"ray_brightness": {
+						"type": "float",
+						"value": 6.79310798645019531
+					},
+					"ray_density": {
+						"type": "float",
+						"value": 18.27581977844238281
+					},
+					"spot_brightness": {
+						"type": "float",
+						"value": 9.93104076385498047
+					},
+					"time": {
+						"type": "float",
+						"value": 0
+					},
+					"warp": {
+						"type": "bool",
+						"value": true
+					}
+				},
+				"hidden": [
+					"bypass"
+				],
+				"name": "ISF"
+			},
+			"4": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 132,
+					"x": 711.8177490234375,
+					"y": 415.46844482421875
+				},
+				"class": {
+					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Texture Out"
+			},
+			"5": {
+				"attributes": {},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": 155.5108795166015625,
+					"y": 383.05206298828125
+				},
+				"class": {
+					"id": "77697265-896F-4C6D-AF54-35624F8E23D8",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {},
+				"hidden": [],
+				"name": "Transport Time"
+			},
+			"6": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 5
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 515.46844482421875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 3.12069106101989746
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Brightness"
+			},
+			"7": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 10
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 617.46844482421875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 6.79310798645019531
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Ray_brightness"
+			},
+			"8": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 15
+					},
+					"min": {
+						"type": "number",
+						"value": -15
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 719.46844482421875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 9.93104076385498047
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Spot_brightness"
+			},
+			"9": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 100
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 239.2843017578125,
+					"y": 821.46844482421875
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 18.27581977844238281
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Ray_density"
+			}
+		},
+		"ui": {
+			"camera": {
+				"x": 69.823089599609375,
+				"y": 358.6199951171875,
+				"zoom": 0.98641073703765869
+			},
+			"selection": []
+		}
+	},
+	"resources": {
+		"isf": {
+			"ecedffe74df3b5935b237ea2c268bb80": {
+				"local": true,
+				"name": "isf",
+				"path": "isf.isf"
+			}
+		}
+	},
+	"ui": {
+		"audio": {
+			"routing": {
+				"in": {},
+				"out": []
+			}
+		},
+		"deviceConnections": {
+			"input": {}
+		},
+		"transport": {
+			"bpm": 120,
+			"time-signature": [
+				4,
+				4
+			]
+		},
+		"video": {
+			"routing": {
+				"out": {
+					"Display 1": null,
+					"Display 2": null
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1229 @@
+{
+	"formatVersion": {
+		"major": 1,
+		"minor": 1,
+		"patch": 0
+	},
+	"patch": {
+		"connections": [
+			{
+				"from": [
+					3,
+					"output"
+				],
+				"to": [
+					4,
+					"input"
+				]
+			},
+			{
+				"from": [
+					5,
+					"seconds"
+				],
+				"to": [
+					3,
+					"time"
+				]
+			},
+			{
+				"from": [
+					42,
+					"output"
+				],
+				"to": [
+					3,
+					"scale"
+				]
+			},
+			{
+				"from": [
+					43,
+					"output"
+				],
+				"to": [
+					3,
+					"amp"
+				]
+			},
+			{
+				"from": [
+					44,
+					"output"
+				],
+				"to": [
+					3,
+					"r1"
+				]
+			},
+			{
+				"from": [
+					45,
+					"output"
+				],
+				"to": [
+					3,
+					"r2"
+				]
+			},
+			{
+				"from": [
+					46,
+					"output"
+				],
+				"to": [
+					3,
+					"r3"
+				]
+			},
+			{
+				"from": [
+					47,
+					"output"
+				],
+				"to": [
+					3,
+					"r4"
+				]
+			},
+			{
+				"from": [
+					48,
+					"output"
+				],
+				"to": [
+					3,
+					"g1"
+				]
+			},
+			{
+				"from": [
+					49,
+					"output"
+				],
+				"to": [
+					3,
+					"g2"
+				]
+			},
+			{
+				"from": [
+					50,
+					"output"
+				],
+				"to": [
+					3,
+					"g3"
+				]
+			},
+			{
+				"from": [
+					51,
+					"output"
+				],
+				"to": [
+					3,
+					"g4"
+				]
+			},
+			{
+				"from": [
+					52,
+					"output"
+				],
+				"to": [
+					3,
+					"b1"
+				]
+			},
+			{
+				"from": [
+					53,
+					"output"
+				],
+				"to": [
+					3,
+					"b2"
+				]
+			},
+			{
+				"from": [
+					54,
+					"output"
+				],
+				"to": [
+					3,
+					"b3"
+				]
+			},
+			{
+				"from": [
+					55,
+					"output"
+				],
+				"to": [
+					3,
+					"b4"
+				]
+			},
+			{
+				"from": [
+					56,
+					"output"
+				],
+				"to": [
+					3,
+					"c_5"
+				]
+			},
+			{
+				"from": [
+					57,
+					"output"
+				],
+				"to": [
+					3,
+					"c_6"
+				]
+			}
+		],
+		"inputOrder": [
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57
+		],
+		"meta": {
+			"author": "Schmiddi",
+			"category": "source",
+			"description": "",
+			"displayName": "Matter",
+			"editor": {
+				"branch": "",
+				"name": "Wire",
+				"version": "7.13.2.17774"
+			},
+			"identifier": "361a3bb8-f9f3-4faa-89e0-b3a388db7812",
+			"licenseName": "",
+			"mail": "",
+			"quality": 32856,
+			"resolution": {
+				"height": 1080,
+				"width": 1920
+			},
+			"thumbnail": "",
+			"url": "",
+			"vendor": ""
+		},
+		"nextNodeId": 58,
+		"nodes": {
+			"3": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"fragment-shader": {
+						"type": "resource",
+						"value": "ecedffe74df3b5935b237ea2c268bb80"
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 442,
+					"width": 195,
+					"x": 459.2843017578125,
+					"y": 415.46844482421875
+				},
+				"class": {
+					"id": "77697265-4576-4C11-899B-6F11F3275D36",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"amp": {
+						"type": "float",
+						"value": 0.40000000596046448
+					},
+					"b1": {
+						"type": "float",
+						"value": 0.98000001907348633
+					},
+					"b2": {
+						"type": "float",
+						"value": 0.69999998807907104
+					},
+					"b3": {
+						"type": "float",
+						"value": 0.40000000596046448
+					},
+					"b4": {
+						"type": "float",
+						"value": 0.85000002384185791
+					},
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"c_5": {
+						"type": "float",
+						"value": 0.20000000298023224
+					},
+					"c_6": {
+						"type": "float",
+						"value": 0.89999997615814209
+					},
+					"g1": {
+						"type": "float",
+						"value": 0.9100000262260437
+					},
+					"g2": {
+						"type": "float",
+						"value": 0.87999999523162842
+					},
+					"g3": {
+						"type": "float",
+						"value": 0.34999999403953552
+					},
+					"g4": {
+						"type": "float",
+						"value": 0.60000002384185791
+					},
+					"r1": {
+						"type": "float",
+						"value": 1
+					},
+					"r2": {
+						"type": "float",
+						"value": 0.80000001192092896
+					},
+					"r3": {
+						"type": "float",
+						"value": 0.60000002384185791
+					},
+					"r4": {
+						"type": "float",
+						"value": 0.69999998807907104
+					},
+					"scale": {
+						"type": "float",
+						"value": 100
+					},
+					"time": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"bypass"
+				],
+				"name": "ISF"
+			},
+			"4": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 132,
+					"x": 711.8177490234375,
+					"y": 415.46844482421875
+				},
+				"class": {
+					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Texture Out"
+			},
+			"42": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1000
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 498.224853515625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 100
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Scale"
+			},
+			"43": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 600.224853515625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.40000000596046448
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Amp"
+			},
+			"44": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 702.224853515625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "R1"
+			},
+			"45": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 804.224853515625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.80000001192092896
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "R2"
+			},
+			"46": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 906.224853515625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.60000002384185791
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "R3"
+			},
+			"47": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1008.224853515625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.69999998807907104
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "R4"
+			},
+			"48": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1110.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.9100000262260437
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "G1"
+			},
+			"49": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1212.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.87999999523162842
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "G2"
+			},
+			"5": {
+				"attributes": {},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": 155.5108795166015625,
+					"y": 383.05206298828125
+				},
+				"class": {
+					"id": "77697265-896F-4C6D-AF54-35624F8E23D8",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {},
+				"hidden": [],
+				"name": "Transport Time"
+			},
+			"50": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1314.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.34999999403953552
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "G3"
+			},
+			"51": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1416.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.60000002384185791
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "G4"
+			},
+			"52": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1518.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.98000001907348633
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "B1"
+			},
+			"53": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1620.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.69999998807907104
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "B2"
+			},
+			"54": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1722.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.40000000596046448
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "B3"
+			},
+			"55": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1824.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.85000002384185791
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "B4"
+			},
+			"56": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 1926.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.20000000298023224
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "C_5"
+			},
+			"57": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 1
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": 220.379364013671875,
+					"y": 2028.2249755859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.89999997615814209
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "C_6"
+			}
+		},
+		"ui": {
+			"camera": {
+				"x": -299.98779296875,
+				"y": 337.6002197265625,
+				"zoom": 0.53023058176040649
+			},
+			"selection": []
+		}
+	},
+	"resources": {
+		"isf": {
+			"ecedffe74df3b5935b237ea2c268bb80": {
+				"local": true,
+				"name": "isf",
+				"path": "isf.isf"
+			}
+		}
+	},
+	"ui": {
+		"audio": {
+			"routing": {
+				"in": {},
+				"out": []
+			}
+		},
+		"deviceConnections": {
+			"input": {}
+		},
+		"transport": {
+			"bpm": 120,
+			"time-signature": [
+				4,
+				4
+			]
+		},
+		"video": {
+			"routing": {
+				"out": {
+					"Display 1": null,
+					"Display 2": null
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2700 @@
+{
+	"formatVersion": {
+		"major": 1,
+		"minor": 1,
+		"patch": 0
+	},
+	"patch": {
+		"connections": [
+			{
+				"from": [
+					34,
+					"output"
+				],
+				"to": [
+					29,
+					"rotation"
+				]
+			},
+			{
+				"from": [
+					40,
+					"output"
+				],
+				"to": [
+					41,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					41,
+					"output0"
+				],
+				"to": [
+					40,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					43,
+					"output"
+				],
+				"to": [
+					44,
+					"condition"
+				]
+			},
+			{
+				"from": [
+					44,
+					"true"
+				],
+				"to": [
+					45,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					45,
+					"output0"
+				],
+				"to": [
+					43,
+					"input"
+				]
+			},
+			{
+				"from": [
+					42,
+					"trigger"
+				],
+				"to": [
+					43,
+					"input"
+				]
+			},
+			{
+				"from": [
+					43,
+					"output"
+				],
+				"to": [
+					40,
+					"opacity2"
+				]
+			},
+			{
+				"from": [
+					46,
+					"output"
+				],
+				"to": [
+					47,
+					"input"
+				]
+			},
+			{
+				"from": [
+					47,
+					"output0"
+				],
+				"to": [
+					38,
+					"shape"
+				]
+			},
+			{
+				"from": [
+					48,
+					"output"
+				],
+				"to": [
+					47,
+					"rotation"
+				]
+			},
+			{
+				"from": [
+					30,
+					"output"
+				],
+				"to": [
+					50,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					38,
+					"output0"
+				],
+				"to": [
+					50,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					29,
+					"output0"
+				],
+				"to": [
+					50,
+					"input3"
+				]
+			},
+			{
+				"from": [
+					31,
+					"output"
+				],
+				"to": [
+					29,
+					"input"
+				]
+			},
+			{
+				"from": [
+					50,
+					"output"
+				],
+				"to": [
+					28,
+					"input"
+				]
+			},
+			{
+				"from": [
+					28,
+					"output"
+				],
+				"to": [
+					51,
+					"input"
+				]
+			},
+			{
+				"from": [
+					54,
+					"output"
+				],
+				"to": [
+					9,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					11,
+					"output"
+				],
+				"to": [
+					10,
+					"input"
+				]
+			},
+			{
+				"from": [
+					10,
+					"output0"
+				],
+				"to": [
+					9,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					9,
+					"output0"
+				],
+				"to": [
+					2,
+					"shape"
+				]
+			},
+			{
+				"from": [
+					49,
+					"output"
+				],
+				"to": [
+					15,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					2,
+					"output0"
+				],
+				"to": [
+					15,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					17,
+					"output"
+				],
+				"to": [
+					18,
+					"mask"
+				]
+			},
+			{
+				"from": [
+					15,
+					"output"
+				],
+				"to": [
+					18,
+					"input"
+				]
+			},
+			{
+				"from": [
+					18,
+					"output"
+				],
+				"to": [
+					52,
+					"input"
+				]
+			},
+			{
+				"from": [
+					52,
+					"output"
+				],
+				"to": [
+					0,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					51,
+					"output"
+				],
+				"to": [
+					40,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					40,
+					"output"
+				],
+				"to": [
+					0,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					0,
+					"output"
+				],
+				"to": [
+					39,
+					"input"
+				]
+			}
+		],
+		"inputOrder": [
+			31
+		],
+		"meta": {
+			"author": "Strijn Frishert",
+			"category": "effect",
+			"description": "This patch generates an animated Wire logo and transforms it to look like it came from an old Gameboy.",
+			"displayName": "Game Boy",
+			"editor": {
+				"branch": "",
+				"name": "Wire",
+				"version": "7.13.2.17774"
+			},
+			"identifier": "8fa1fbe2-bafa-4f79-9c9c-d48a03b71378",
+			"licenseName": "",
+			"mail": "mail@resolume.com",
+			"quality": 32856,
+			"resolution": {
+				"height": 1080,
+				"width": 1920
+			},
+			"thumbnail": "7623.IBkSG0fBZn....PCIgDQRA..C.L..H.GHX....PNcc7d....DLmPIQEBHf.B7g.YHB..c3WRDEDU3wY6c+rcibcmXG+G.JfljMaJHKJkViFq+ZmMY1jMYi86QdExaPdFxh7H3UY07dX+FLyhLKbjy3ShilVi4IVlMEAItYARaxVVsD6aAvaU0uOeNmxq78TWA.Bvunpl+l8q9U+pR.....Sbya8F.....dLH.F...fTP.L....of.X....RAAv....jBBfA...HE5JESAI....l9bEfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBckRo06A....3fyU.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJz05MvPxu6286hu4a9lVuM....1KN8zSiO4S9jVuMFLD.eOe0W8Uwu829aa81....Xu3y+7OW.783VfF...fTP.L....of.X....RgtRoz58.....GHZ9tiq.783EF...vThFmWm.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTnqTJsdO....vAhlu63J.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HE5JkRq2C....bfn46NtBv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HE5JkRq2CCFdr....lRJkhNm6wU.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RgtVuAHmJkRq2B...MzrYyZ8VfDR.LMwu+q+eG+t+0eeq2FGNWus06.dSVLa2wiMul3go1ma1FQ3KVi8k979D9Y8CuUtAFOn1Vh31Je+z2hk8IevOM9oevGU24A5gNWINZgRThq1dcq2FGN23W.Z3ZVDs3ab1qIdfpM.trKBF1K5w6S3m0O75D.ePcaOBfeKd4uFjGWd79NdGD....RA2BzvgvQ836V5JW8fCpaJ6NpQ2rcGb3T6yMv9TedeBXHvqgg2HWAX....RAAv....jBBfA...HE7uAXZqmLOhU92T4qwCGCWq5wqW87J.6Gmtn06fguqKC9Qx07NOORaH.l15Iyi3mdTq2ECKuXBOdnF6NYwtiZ34U.1ONeUq2ACeWd6tiArkO8IsdKPR4VfF...fTP.L....ofaAZ.dntoDwUUdKkU6sNcDC9aiMXPZdDwrJ+GeeoDwv9e9jie848DyjZe++MlAvvah.X.dntYaDaq7Wnd8x5OuBfg2dylEQWk+75MQDg.hCJAvOLd+eXuys.M....oPWo3a37U7XA...LkTJEcN2iq.L....of.X....RAAv....jBBfA...HED.C...PJXN.CCMmupt0c4slWfGZaiH15uhhvnvskcGPq8hqa8N.3dbEfA...HED.C...PJH.F...fTP.L....of.X....RgtRwegDA...lpz7cGWAX....RAyAXXpnaVDGunt0toDwMa2u6GdclCj.SM0N25Git71cG.idtBv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBlCvvTwhY0u1skHtY+sU..NXttx4V+1X2m2UiMUtNfAGAvvTwhY0GAeiOXG.FIpMFcSIhapLdFXxvs.M....of.X....RAAv....jBckh+s+A...LUo46NtBv2iWX....SIZbdcBfA...HED.C...PJXN.SabaIhq1Fw7ah3EWe3NOmrX2A+v5yiSGxm+.lF9O971bdmU4rQuU2tf+8+gG+yYq9bRe1APi3J.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJXN.yz1k2t6nFKmGwxJmgjl8v.zVG2i4a6k2FwKq7yN5iZmWx+CeSD+iey9cu7PXV9BLB0UZ0vdG...fCNMe2ws.M....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.FdStsG+4hu1YObDiuYHbe1u84woZ8Aqh38W83ed6i0U9V0Wsc2wisVLOR6iSWDwoU9X76sb+tWdnFaOF2B2rMhKqbscyp+m6t3lJOo8vxYiu2KFfFQ.L7lrsr6nFa5w4U.7g06uJh+tSe7Ou8wmdbcq6hMs4WFerEmcZWDe3Spas+aOY+tWdnFaOF2BaJQrox2iYcWDqq7K2nIAvyq+8hu7VAv.ohaAZ....RAAv....jBBfA...HED.C...PJzUJ83uzs....Lno46NtBv....jBFCRvPSKFGEKmsaLZ7XarMBkZkK5wb0p1YYZqT698rtHdVkq8Y8XN.2J+6pbTd8ubcDe00628xTzUaq+m65yOyU6HTZy15eOwMtpP78XVkq632hOWeQsmDneFYehOj.sHr6jEQT4Hur2m2Zkp.3J+kh6yrLsUd2J2uezSh3iNZ+tWFxpcVV+O7MBfeHtZ6tiZT6b6NhdD.Wx06Ixg0rHhYUFm91745amEgu+EZ.2Bz....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBlCv.6lejsXFRd9pG+yYlbwM0OWQak+CuSq2AP+7kur909SqbVV+OeU8mSlldx7HNpxqy07YQrnx4.LLBzUJl.0....SUZ9tiaA56wKL...foDMNuNAv....jBBfA...HED.C...PJH.F...fTP.L....of4.LP6zmYObsinvimGw5Jequq1t6fCmZetYSY2QMtsr6fCmZedMhw2rrtOdwl5VWKli6733jE0sttY6lmu0vkGiINAv.sSe9k1p8C1OdQDqWV2ZuXi.3CsZet4xai3kU9by2tU.7gVsOuFQtBf+5ZCf89RSV0F.C7F463A...fTP.L....of.X....RAAv....jBckh+ve....LUo46NtBv....jBFCR.iS09MY1mu.ziVDw5JWalFkK8wEUNFX5yb.d4rHNoxONbr875oKh3eyp5V6e91H9lJGcY097ZD4Ztc+e+OW2595q2u6C1uLJifAEAv.iS0Fx1maAnilu6nFisPoVoEONcRWOlMzirmWOcQDO+I0s1+v21i.3d73zmdbkmyQ3b69epx.XF1D.CCJtEnA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HELGfA3wPsyxz93hMiu4TaKbwM0+3Tedd8KeY8qsVmuZ2QMtoDw+mq2u6mGhZebZcW+lgv9YGtuSVXd9BSDtBv....jBBfA...HED.C...PJzUJkVuG....3.Qy2cbEfA...HED.C...PJH.F...fTvb.l1XwrHNZdDm18vlIkunAydRll9MWr6nF+h0Q7Ke28694PZ8xcG0vbP8goOyx2w1LDdroOy249LCg8byvkY4KP3J.C...PRH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJzUJkVuGfeb0N291ThXy186dAxfiVDw5JW6S7cq9fbwl5W65t5V2Ua2cvOrq1V+yO09bCOb096Drb19ce.iHZ9ti2k9d7BiArZ+vtKuMhd76XBo0Qy2cT6Z4G2E2T+Z+ziq7btQ.7CQe9hBp84Fd3p82I.RJMNuN+VJ....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBlCvLscxh1Lu.ew0O9mSXn3+zO8w+bdwl9MWcGa9xWV25V2U+bp82eUcqKap84lr47UsdGLsc81H1T4recSIhadDlW3OcaDdY.Mfq.L....of.X....RAAv....jBckRk+6C....fAOMe2wU.F...fTP.L....of.X....RAyAX3PnOy2PyPX3s25k6NpQllgvWbS8+2ZVdLhGG9rNfFwU.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.FFZNYwi+4bSIhMae7OuvPvQKhXckq0rw8gYcO90M7XL.rGI.FFZZQ.7k2FwlG+SKLHbz7cG0Pb1Cy5k0uVOFC.6QtEnA...HE5JkRq2C....bfn46NtBv....jBBfA...HED.C...PJH.F...fTP.L....of4.LvtYObsye3+u8XFcd815WKLD7oGW+Z+xWt+1GCc84+Vq8w3K1XFBC.+UbEfA...HED.C...PJH.F...fTP.L....of.X....RgtRoz58.....GHZ9tiq.L....of4.LLUbSIhaq7a26a2Zl7BO1FayP3+tS2c7Xq1+accmYHL.7WwU.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.l1Xarat0tYaDWdaq2MSCaK6dbsF0N+fylKuMhu555V6GrZ+tWH2VW4Gee01cGYvUa2MOeqcs.vjj.XZiRYWz0lRDu7A7KZTDnw.ve91H9WD.y.v5k0stK1jm3tLE6C.OXtEnA...HE5JtxZ+Edr....lRJkhNm6wU.F...fTP.L....of.X....RAAv....jBFCRzNkWc3eT9LR70ah3e5OW2Z+nmT+4s1QdC7cczhHVW4ZyzXE5n46NpwE2re2K.vdk.XZKwuLl70a1cTi+8mU+4U.L6K8JrKQyP3il2iYsr.X.FxbKPC...PJH.F...fTP.L....of.X....RAAv....jBBfA...HE5JFCM....SVZ9ti4.L.Cce4Ke7Omq6L+g40sdY8ulnEuFtOt3l5mmue5w628B.rW4VfF...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.FfGCq6wa2V67HsOtZaDWrot0Z9ASlU6O2..OJD.Cvig9DE1p.3q1V2ZE.Sl0hedEFJlMq06.3GkaAZ....RAAv....jBBfA...HE5JkRq2CCFdr....lRJkhNm6wU.F...fTP.L....ofwfD.Cc0NCg6ynLpO5ybP0HTZZZrMGrYZZwrcG0XdDwbi3m8pNOdRaH.FfgtZiBuXSiBf6Qvh.3oow1bvlooEyh3IUdyOtXlfs8ssyhv+rToAbKPC...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJXN.CvT05k8aFB2h4u5W9x5V25NyP3opO835VWqdMLOLq5w0f4L+5q.0qqTLApA...lpz7cG2Bz2iWX....SIZbdcBfA...HED.C...PJH.F...fTP.L....of.X....RACRM.3uVelgv0NKe6iKto9Y9pYH7zzwKhXQkeO+WdaDu71869gW20aqesu355V2IK1c.jZtBv....jBBfA...HED.C...PJH.F...fTP.L....oPWoTZ8d....fCDMe2wU.F...fTvb.F.1uV2iOZ4lJ+FputT+bE8psQbwl5Vq4G7vU2r5W608XsLbsoraFO+XyrGFFTD.C.6W8IJ7aqLh8OcSDWW447ps6Npg.3gqEy1cTiW1fHIN71rMhJ+tt5EAvvfhaAZ....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAyAXl15lGwxJmCjKmEwJeGQGTun1A25Hz+k+G0u1+ye19aeLz8jJ+YtmrJhyq7bdwlHt3l5V6W9xJOoQD+8+g5WaldMQKrdY8y3497ZBll5ym0c9p829.HhHhtRoz58.....GHZ9tiKuE....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.l1XwrHNZdDm1YF2M1koY4KSSl4q.CUs3yXOYwtCXhxU.F...fTP.L....of.X....RAAv....jBBfA...HE5JkRq2C....bfn46NtBv2iWX....SIZbdclCv.QrYaDa7livas0M5iQuXScq6nE6lA6b3zpWS.6KaJQb4s0sVyOXFA7tz.86C6fLa8x1bdu3l5V25P.7gVqdMArurYaDU9crI.lw.eJH....of.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of4.LLUb4slku.+vt3ldLCg6LiaA9g8hqe3++8oaiX0gaq.uItBv....jBBfA...HED.C...PJzUJkVuG....3.Qy2cbEfA...HED.C...PJH.F...fTvb.FFZdalgd.7XoOyP3O8386dYH6+5W15c..7CvU.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.FNDt71VuC.lxVW4Gee01cGb3rsz5cvauYUttQ3+oBPWo3cuf8NAv.GRqWV25tXi.3Csw1CuyhHlUYAreGRXzPy2cbKPC...PJH.F...fTP.L....of.X....RAAv....jBBfA...HELGfYZqTpejTbaIha7mLdF.90+w5V2GebDe7Q628BCC+oapacyl0lYH7EapacQT+HehGlxe4+4s2IKp+7ZbABzHBfYZaaDw1J+f8uc6tCn09MWT+ZE.OM8mpLd3YKh3YMXFBeQkA6QH.9wPseWuBfAFgbKPC...PJH.F...fTP.L....oPWo3OxO....SUZ9tiq.783EF...vThFmWm.X....RAAv....jBlCvLN7utot0UJ0OeCAXn5+1+q5V2uXcD+x2st0tdY8yj2u7k0st9r10clgvCYmu5w+bd4sl+v.tBv....jCBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBlCvzFaiHtoDw0aeXyjuRkCyWy.X9tVNOhkypasaJQrY69c+.vXUelotmrX+sOdnVNqMmWydXXPoqTaXAzGkxaW.LruzmeAnKuMhM62sC.iVit.34Qr7w+z52ygg.Me2ws.M....of.X....RAAv....jBBfA...HED.C...PJH.F...fTvb.FXbpOiPiZGIEaLBA363W+Ga8N3sy+7U0um+3ii3iOpt0ttG+5F+5KpacGMe2ACSisQnTezm8asetyskH15yrfuOBfAFm5yr70LYj8keSkwYsx+yq1cTqpCf6wvW8e7apesLbI.9goOONI.F9d4qFE...fTP.L....of.X....RAAv....jBBfA...HED.C...PJzUJ9Sj9q3wB...XJoTJ5btGyAXf147UsdGLs8atn94T6uXcD+x2c+teFp90+ww277sE5yqm.pSKl4wWda+l+vv.maAZ....RAAv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAyAXfH5lGwxY0s1m1fYTXDQ7hqay4MKLyWAFpp88+OYQalqtiMOVONscdDkC+ogHlO207797nA...vD0hE9hetOAv....STcctoeuutRw8d....vTzpUqBMe2wU.F...XhZ0pUsdKLnH.F...XBZ974wxkKa81XPQ.L...vDzxkKE.+cH.F...XB5niNxeDr9N7nALUrrGyx24y70gA.Sa2Vh35s0s1Ey1c.iLmd5osdKL3H.FlJVN6wYv0C.LFcaDwld7WBWAvLB8Nuy6z5svfiq4C...vDypUqhSN4jVuMFbD.C...Lw7rm8L+Av56g.X...fIlyO+7VuEFjD.C...LgbzQGEmc1YsdaLHI.F...XB47yO23O5MP.L...vDQWWW79u+625swfUWozi+bvC...vfw4med7jm7jPm22OWWbXn47UsdG734EW25c..6W848v8dhGV2rMhapbsyVDQh93YFuVtbY77m+7VuMFzbKPC...LA77m+73niNp0aiAMAv....ibO8oO0U+8AP.L...vH1hEKhO4S9jXwhEsdqL3I.F...XD6C+vOzb+8AR.L...vH050qiO7C+vVuMFMD.C...LBcxImDe9m+4t0meKH.F...XjY0pUwW7EeQrZkYz0aCyAX3PHSyxWFtVLKhtY0s1aJQbaY+te.9gU6OutsDw186VguiKuc2QM76DvAPWWW7y9Y+r3oO8osdqL53J.C...LRz00E+7e9O2ezqpj.X...fQfWE+9Nuy6z5sxnk.X...fANwu6GBfA...FvD+t+H.F...XfR769UWo3uxmuhGK...fghW8W64yN6LsJ6ItBv....CLuJ90U9c+xb.FdSVNOhkUNSFyjZmKhb3UJQbSOVKvau97dhGU40k35RDWaP.CSIheObD.CuIKmEwIKZ8tX3S.7v01HhPHK7npOum34qpacauMhqq+zBLrH98vxs.M...v.f32COAv....Ml32GGBfA...ZHwuOdD.C...zHheebI.F...nAD+93S.L...viLwusg.X...fGQheaGyAXFG5lU25NZdDGYV9xHWsyFzKu0bZl8mt46lO503kdc3A0IKpet068IN7dQOFRy099+LnI9ss5JkRq2C....SdcccwW7EeQb1YmE5vZCWAXZhYylEG0sJlsnKVt33e7Ernxq5vr4QTbm9ePsXYq2ASekJeLd11HV3J6vdxh4QLux2K1qCeXp8m06CuOwvVKdMwijYQkuexH1qheckeaKAvzD+su+eS7299+MG9SzrHhsG9SSp8rVuARfZeM7pHho6u6DiIdc3CSK97JuOwvleGlICwuCGBfoIlMKeeqeSVdpbXyyO.+X79DvAk32gE2an....G.heGdD.C...rmI9cXR.L...vdj32gKAv....6IheG1D.C...rGH9c3S.L...POI9cbP.L...POH9c7P.L...PkD+NtH.F...nBheGe5JkRq2C....iJcccwm+4edb1YmEZpFObEfA...dK7p3WW42wGAv....OPheG2D.C...7.H9c7S.L...vOBwuSCBfA...9AH9c5P.L...vaf32oEAv....eOD+N8H.F...36P76zj.X...f6Q76zk.X...f++D+NsI.F...HD+lABfA..fzS7aNzUJkVuGFL7XA...4SWWW7Ye1mEmc1YZBl3bEfA..fz5Uwutxu4f.X...HkD+lOBfA..fzQ7aNI.F...REwu4k.X...HMD+laBfA..fTP7KBfA..fIOwuDg.X...XhS7Kuh.X...XxR7K2m.X...XRR7KeWBfA..fIGwu78oqTJsdO....r27p32yN6rPuC2mq.783GN...Xb69wuv2k.X...XRP7K+XD.C...idhe4gP.L...LpI9kGJAv...vnk3WdaH.F...FkD+xaKAv...vni3Wpg.X...XTQ7K0R.L...LZH9k9nq0a....fGhkKWFe1m8Ywyd1yZ8VgQJAv...vf2wGeb7Ye1mEGe7wsdqvHl.X...XPa850wG+webrb4xVuUXjS.L...LHsXwh34O+4wG7AePLet+7EQ+I.F...FbN8zSiO5i9n3zSOs0aElP5JkRq2C....QDQrZ0p3C9fOHN+7yi4ymG5UXexU.F...ZtkKWFu268dw4medrZ0pVucXhR.L...zLGe7ww68duWrd8ZgubvI.F...dzLa1rX0pUwyd1yh28ce23jSNIVrXQq2VjDBfA..fChYylEymOOVtbYbzQGEmd5owSe5SiiN5HQuzDBfumm8rmY1hA..PElMa1eI3sqq6ubrb4xnqqKlMaVq2hf.366m7S9IsdK....vAhoIM....of.X....RAAv....jBBfA...HED.C...PJH.F...fTnqTJsdO.....GbtBv....jBBfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HED.C...PJH.F...fTP.L....oPWoTZ8d.....N3bEfA...HED.C...PJH.F...fTP.L....of.X....RAAv....jBBfA...HE9+gI1L41efVeH.....jTQNQjqBAlf",
+			"url": "www.resolume.com",
+			"vendor": "Resolume"
+		},
+		"nextNodeId": 55,
+		"nodes": {
+			"0": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"input-count": {
+						"type": "number",
+						"value": 2
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 1359.19384765625,
+					"y": 297.0269775390625
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"mode"
+				],
+				"name": "Video Mixer"
+			},
+			"1": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "A Texture In node containing the Wire logo."
+					}
+				},
+				"bounds": {
+					"height": 67.0341033935546875,
+					"width": 202.181396484375,
+					"x": -711.23345947265625,
+					"y": -280.60919189453125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment"
+			},
+			"10": {
+				"attributes": {
+					"input-type": {
+						"type": "type",
+						"value": "procedural"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"scale-type": {
+						"type": "type",
+						"value": "float"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": -468.546875,
+					"y": 1081.7342529296875
+				},
+				"class": {
+					"id": "77697265-9225-4009-9D2D-5F898E94CC33",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"anchor": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					},
+					"input": {
+						"type": "procedural",
+						"value": null
+					},
+					"rotation": {
+						"type": "float",
+						"value": 0.125
+					},
+					"scale": {
+						"type": "float",
+						"value": 1
+					},
+					"translation": {
+						"type": "float2",
+						"value": [
+							1.81599998474121094,
+							1
+						]
+					}
+				},
+				"hidden": [],
+				"name": "Transform"
+			},
+			"11": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": -683.850341796875,
+					"y": 1081.66943359375
+				},
+				"class": {
+					"id": "77697265-4db6-4573-8aa7-42362bc44931",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"height": {
+						"type": "float",
+						"value": 0.5
+					},
+					"round": {
+						"type": "float4",
+						"value": [
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"width": {
+						"type": "float",
+						"value": 0.5
+					}
+				},
+				"hidden": [],
+				"name": "Rectangle"
+			},
+			"12": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "A simple rotated and transform rectangle, to cut out a corner"
+					}
+				},
+				"bounds": {
+					"height": 78.25392913818359375,
+					"width": 207.82550048828125,
+					"x": -683.19189453125,
+					"y": 1214.0770263671875
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 7"
+			},
+			"13": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "A rectangle from which we'll cut a corner"
+					}
+				},
+				"bounds": {
+					"height": 56.44927978515625,
+					"width": 207.82550048828125,
+					"x": -683.19189453125,
+					"y": 874.1810302734375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 7"
+			},
+			"14": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Subtract the corner from the rectangle for that iconic Gameboy screen shape."
+					}
+				},
+				"bounds": {
+					"height": 93.64545440673828125,
+					"width": 188.5861053466796875,
+					"x": -197.076446533203125,
+					"y": 1080.683837890625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 7"
+			},
+			"15": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"input-count": {
+						"type": "number",
+						"value": 2
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 43.808807373046875,
+					"y": 874.6986083984375
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"mode"
+				],
+				"name": "Video Mixer"
+			},
+			"16": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Mix the screen corner with a grey Gameboy background"
+					}
+				},
+				"bounds": {
+					"height": 76.9713134765625,
+					"width": 188.5861053466796875,
+					"x": 44.057342529296875,
+					"y": 772.853515625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 7"
+			},
+			"17": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": 329.7110595703125,
+					"y": 964.030517578125
+				},
+				"class": {
+					"id": "77697265-4db6-4573-8aa7-42362bc44931",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"height": {
+						"type": "float",
+						"value": 0.68999999761581421
+					},
+					"round": {
+						"type": "float4",
+						"value": [
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"width": {
+						"type": "float",
+						"value": 1.19200003147125244
+					}
+				},
+				"hidden": [],
+				"name": "Rectangle"
+			},
+			"18": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 329.7110595703125,
+					"y": 844.030517578125
+				},
+				"class": {
+					"id": "77697265-CB86-4A6F-AABA-009C4C8BB5C1",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"channel": {
+						"type": "integer",
+						"value": 0
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"invert": {
+						"type": "bool",
+						"value": true
+					},
+					"mask": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"bypass",
+					"channel"
+				],
+				"name": "Mask"
+			},
+			"19": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "The shape of the screen cut-out"
+					}
+				},
+				"bounds": {
+					"height": 55.9713134765625,
+					"width": 188.5861053466796875,
+					"x": 332.057373046875,
+					"y": 1090.853515625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 7"
+			},
+			"2": {
+				"attributes": {
+					"antialising-direction": {
+						"type": "choice",
+						"value": "In"
+					},
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"material-dimensions": {
+						"type": "dimensions",
+						"value": []
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					},
+					"shape-dimensions": {
+						"type": "dimensions",
+						"value": []
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": -197.551055908203125,
+					"y": 875.3236083984375
+				},
+				"class": {
+					"id": "77697265-EA26-47D6-985A-B4D5DC314BF7",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"antialiasing": {
+						"type": "float",
+						"value": 4
+					},
+					"material": {
+						"type": "float4",
+						"value": [
+							0.26666668057441711,
+							0.26666668057441711,
+							0.26666668057441711,
+							1
+						]
+					},
+					"shape": {
+						"type": "procedural",
+						"value": null
+					}
+				},
+				"hidden": [
+					"antialiasing"
+				],
+				"name": "Shape Render"
+			},
+			"20": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Use an inverted mask to cut out the screen shape"
+					}
+				},
+				"bounds": {
+					"height": 55.9713134765625,
+					"width": 188.5861053466796875,
+					"x": 332.057373046875,
+					"y": 757.853515625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 7"
+			},
+			"21": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "This piece of patch simulates a lower frame rate. We do this by only letting through the original signal every 1\/12th second."
+					}
+				},
+				"bounds": {
+					"height": 73.543243408203125,
+					"width": 360.34539794921875,
+					"x": 553.5723876953125,
+					"y": -241.25714111328125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"22": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "The metronome triggers the fake frame rate."
+					}
+				},
+				"bounds": {
+					"height": 60.15172958374023438,
+					"width": 189.3453826904296875,
+					"x": 556.3145751953125,
+					"y": 336.70458984375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"23": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "The toggle decides whether the original signal comes through. After it's been toggled to true we toggle it to false a frame later, to make sure we only capture one frame."
+					}
+				},
+				"bounds": {
+					"height": 170.1517333984375,
+					"width": 189.3453826904296875,
+					"x": 556.3145751953125,
+					"y": -136.29541015625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"24": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Check if the toggle was set to true..."
+					}
+				},
+				"bounds": {
+					"height": 60.15172958374023438,
+					"width": 189.3453826904296875,
+					"x": 1001.3145751953125,
+					"y": 164.70458984375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"25": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "...if so, send the trigger into a single-frame delay, which will then set the toggle back to false."
+					}
+				},
+				"bounds": {
+					"height": 110.1517333984375,
+					"width": 189.3453826904296875,
+					"x": 1001.3145751953125,
+					"y": 270.70458984375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"26": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "We mix the single-frame original that comes through with itself. That way we \"hold\" the frozen input signal until the next one is sent in."
+					}
+				},
+				"bounds": {
+					"height": 139.2863616943359375,
+					"width": 189.3453826904296875,
+					"x": 1041.3145751953125,
+					"y": -203.4300537109375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"27": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Finally, the screen and the overlay are mixed together to get to a real Gameboy."
+					}
+				},
+				"bounds": {
+					"height": 93.1517333984375,
+					"width": 189.3453826904296875,
+					"x": 1361.3145751953125,
+					"y": 182.70458984375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"28": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": 277.880767822265625,
+					"y": -30.8040771484375
+				},
+				"class": {
+					"id": "77697265-ACD2-4541-B139-88756DC29CA7",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"columns": {
+						"type": "float",
+						"value": 64
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"rows": {
+						"type": "float",
+						"value": 64
+					}
+				},
+				"hidden": [],
+				"name": "Pixelate"
+			},
+			"29": {
+				"attributes": {
+					"input-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"scale-type": {
+						"type": "type",
+						"value": "float2"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": -438.369720458984375,
+					"y": -158.51727294921875
+				},
+				"class": {
+					"id": "77697265-9225-4009-9D2D-5F898E94CC33",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"anchor": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"rotation": {
+						"type": "float",
+						"value": 0
+					},
+					"scale": {
+						"type": "float2",
+						"value": [
+							0.5,
+							0.5
+						]
+					},
+					"translation": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					}
+				},
+				"hidden": [],
+				"name": "Transform"
+			},
+			"3": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "We rotate the star with a saw. Because rotation wraps around, this looks like a continuous movement."
+					}
+				},
+				"bounds": {
+					"height": 107.17950439453125,
+					"width": 216,
+					"x": -473.580810546875,
+					"y": 590.246826171875
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment"
+			},
+			"30": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": 51.63287353515625,
+					"y": 195.8363037109375
+				},
+				"class": {
+					"id": "77697265-E8EC-4F1B-901A-CFFC104D3B07",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"color": {
+						"type": "float4",
+						"value": [
+							0.18431372940540314,
+							0.43529412150382996,
+							0.14901961386203766,
+							1
+						]
+					}
+				},
+				"hidden": [
+					"bypass"
+				],
+				"name": "Solid Color"
+			},
+			"31": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -711.1812744140625,
+					"y": -185.02081298828125
+				},
+				"class": {
+					"id": "77697265-B2A2-4C1C-8C4C-2915D78CC8E9",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Texture In"
+			},
+			"32": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "GAME BOY\n\nThis patch generates an animated Wire logo and transforms it to look like it came from an old Gameboy."
+					}
+				},
+				"bounds": {
+					"height": 111.9091796875,
+					"width": 413.994842529296875,
+					"x": -615.76153564453125,
+					"y": -482.33111572265625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 10"
+			},
+			"33": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "This solid color node sends out a green signal, which will be the background of the screen."
+					}
+				},
+				"bounds": {
+					"height": 101.17950439453125,
+					"width": 203.2712249755859375,
+					"x": 44.471038818359375,
+					"y": 270.2843017578125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 2"
+			},
+			"34": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"unipolar": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"bounds": {
+					"height": 154,
+					"width": 195,
+					"x": -712.01531982421875,
+					"y": -11.9951171875
+				},
+				"class": {
+					"id": "77697265-ED9B-4BEC-B3D4-43AC04731CBA",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"amplitude": {
+						"type": "float",
+						"value": 1
+					},
+					"frequency": {
+						"type": "float",
+						"value": 0.10000000149011612
+					},
+					"offset": {
+						"type": "float",
+						"value": 0
+					},
+					"phase-offset": {
+						"type": "float",
+						"value": 0
+					},
+					"reset-phase": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Sine (Rotation)"
+			},
+			"35": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "This sine wave generator drives the rotation of the logo."
+					}
+				},
+				"bounds": {
+					"height": 79,
+					"width": 202.531005859375,
+					"x": -712.123046875,
+					"y": 160.91015625
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 5"
+			},
+			"36": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Three layers are blended together to create the Gameboy screen."
+					}
+				},
+				"bounds": {
+					"height": 92.543243408203125,
+					"width": 189.3453826904296875,
+					"x": 53.57234954833984375,
+					"y": -140.25714111328125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"37": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "Transform handles the logo rotation and also scales the logo down a bit."
+					}
+				},
+				"bounds": {
+					"height": 99.6231842041015625,
+					"width": 202.8177032470703125,
+					"x": -441.7772216796875,
+					"y": -281.08001708984375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 4"
+			},
+			"38": {
+				"attributes": {
+					"antialising-direction": {
+						"type": "choice",
+						"value": "In"
+					},
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"material-dimensions": {
+						"type": "dimensions",
+						"value": []
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					},
+					"shape-dimensions": {
+						"type": "dimensions",
+						"value": []
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": -250.252655029296875,
+					"y": 432.739013671875
+				},
+				"class": {
+					"id": "77697265-EA26-47D6-985A-B4D5DC314BF7",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"antialiasing": {
+						"type": "float",
+						"value": 4
+					},
+					"material": {
+						"type": "float4",
+						"value": [
+							0,
+							0,
+							0,
+							1
+						]
+					},
+					"shape": {
+						"type": "procedural",
+						"value": null
+					}
+				},
+				"hidden": [
+					"antialiasing"
+				],
+				"name": "Shape Render"
+			},
+			"39": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 132,
+					"x": 1632.0469970703125,
+					"y": 297.0264892578125
+				},
+				"class": {
+					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Output"
+			},
+			"4": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "The star is colored black, because we'll only blend a little over the background next."
+					}
+				},
+				"bounds": {
+					"height": 91,
+					"width": 199,
+					"x": -248.580780029296875,
+					"y": 509.246826171875
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment"
+			},
+			"40": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"input-count": {
+						"type": "number",
+						"value": 2
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 1038.39599609375,
+					"y": -48.04443359375
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"bypass",
+					"mode"
+				],
+				"name": "Video Mixer"
+			},
+			"41": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": 1038.39599609375,
+					"y": 96.95556640625
+				},
+				"class": {
+					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Delay"
+			},
+			"42": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": 553.39593505859375,
+					"y": 194.95556640625
+				},
+				"class": {
+					"id": "77697265-FD65-470F-9F75-ED878267980E",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"enabled": {
+						"type": "bool",
+						"value": true
+					},
+					"frequency": {
+						"type": "float",
+						"value": 12
+					},
+					"reset": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"count"
+				],
+				"name": "Metronome"
+			},
+			"43": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 801.39593505859375,
+					"y": 96.95556640625
+				},
+				"class": {
+					"id": "77697265-4de6-4e40-979b-b2617a6bae4a",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "trigger",
+						"value": null
+					},
+					"setFalse": {
+						"type": "trigger",
+						"value": null
+					},
+					"setTrue": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Toggle"
+			},
+			"44": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 796.39593505859375,
+					"y": 163.95556640625
+				},
+				"class": {
+					"id": "77697265-4b9a-a7f6-922d96685f6c",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"condition": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [],
+				"name": "If"
+			},
+			"45": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "event"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "trigger"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 58,
+					"width": 195,
+					"x": 797.39593505859375,
+					"y": 269.95556640625
+				},
+				"class": {
+					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "trigger",
+						"value": null
+					},
+					"time": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [],
+				"name": "Delay"
+			},
+			"46": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": -712.252685546875,
+					"y": 435.739013671875
+				},
+				"class": {
+					"id": "77697265-7819-4C94-BC33-725A34429325",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"innerRadius": {
+						"type": "float",
+						"value": 0.10000000149011612
+					},
+					"outerRadius": {
+						"type": "float",
+						"value": 8
+					},
+					"sides": {
+						"type": "integer",
+						"value": 16
+					}
+				},
+				"hidden": [],
+				"name": "Star"
+			},
+			"47": {
+				"attributes": {
+					"input-type": {
+						"type": "type",
+						"value": "procedural"
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"scale-type": {
+						"type": "type",
+						"value": "float"
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": -464.252685546875,
+					"y": 432.739013671875
+				},
+				"class": {
+					"id": "77697265-9225-4009-9D2D-5F898E94CC33",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"anchor": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					},
+					"input": {
+						"type": "procedural",
+						"value": null
+					},
+					"rotation": {
+						"type": "float",
+						"value": 0
+					},
+					"scale": {
+						"type": "float",
+						"value": 1
+					},
+					"translation": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					}
+				},
+				"hidden": [],
+				"name": "Transform"
+			},
+			"48": {
+				"attributes": {
+					"anti-alias": {
+						"type": "bool",
+						"value": false
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"unipolar": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"bounds": {
+					"height": 130,
+					"width": 195,
+					"x": -712.252685546875,
+					"y": 566.739013671875
+				},
+				"class": {
+					"id": "77697265-F95F-41D8-8FC4-DF0DC56E1051",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"amplitude": {
+						"type": "float",
+						"value": 1
+					},
+					"frequency": {
+						"type": "float",
+						"value": 0.10000000149011612
+					},
+					"offset": {
+						"type": "float",
+						"value": 0
+					},
+					"phase-offset": {
+						"type": "float",
+						"value": 0
+					},
+					"reset-phase": {
+						"type": "trigger",
+						"value": null
+					}
+				},
+				"hidden": [
+					"reset-phase"
+				],
+				"name": "Saw"
+			},
+			"49": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"method": {
+						"type": "choice",
+						"value": "2 Colors"
+					},
+					"mode": {
+						"type": "choice",
+						"value": "Smooth"
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					},
+					"type": {
+						"type": "choice",
+						"value": "Vertical"
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 44.279266357421875,
+					"y": 1025.8338623046875
+				},
+				"class": {
+					"id": "77697265-FCE2-4EBE-8C81-99C578524A24",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"color1": {
+						"type": "float4",
+						"value": [
+							0.61568629741668701,
+							0.61568629741668701,
+							0.61568629741668701,
+							1
+						]
+					},
+					"color2": {
+						"type": "float4",
+						"value": [
+							0.45490196347236633,
+							0.45490196347236633,
+							0.45490196347236633,
+							1
+						]
+					},
+					"dither": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"bypass",
+					"dither"
+				],
+				"name": "Gradient"
+			},
+			"5": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "We then pixelate it for some real retro flavor"
+					}
+				},
+				"bounds": {
+					"height": 55.02122116088867188,
+					"width": 189.3453826904296875,
+					"x": 279.314605712890625,
+					"y": -119.735107421875
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"50": {
+				"attributes": {
+					"bitdepth": {
+						"type": "choice",
+						"value": "Patch Bit Depth"
+					},
+					"input-count": {
+						"type": "number",
+						"value": 3
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"resolution": {
+						"type": "choice",
+						"value": "Patch Size"
+					}
+				},
+				"bounds": {
+					"height": 178,
+					"width": 195,
+					"x": 54.133941650390625,
+					"y": -30.6790771484375
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input3": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 29
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 0.13415899872779846
+					},
+					"opacity3": {
+						"type": "float",
+						"value": 1
+					}
+				},
+				"hidden": [
+					"bypass",
+					"mode"
+				],
+				"name": "Video Mixer"
+			},
+			"51": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"mode": {
+						"type": "choice",
+						"value": "Color"
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": 278.60784912109375,
+					"y": 105.15301513671875
+				},
+				"class": {
+					"id": "77697265-9518-4E69-899B-66B8C527C6EB",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"color": {
+						"type": "float4",
+						"value": [
+							0,
+							1,
+							0.27843138575553894,
+							1
+						]
+					},
+					"contrast": {
+						"type": "float",
+						"value": 0.20000000298023224
+					},
+					"greysKeep": {
+						"type": "bool",
+						"value": false
+					},
+					"greysTolerance": {
+						"type": "float",
+						"value": 0.30000001192092896
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"invert": {
+						"type": "bool",
+						"value": false
+					}
+				},
+				"hidden": [
+					"bypass",
+					"greysKeep",
+					"greysTolerance"
+				],
+				"name": "Colorize"
+			},
+			"52": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 195,
+					"x": 599.159912109375,
+					"y": 744.9625244140625
+				},
+				"class": {
+					"id": "77697265-E77F-458C-88F7-71C9E15F5BD9",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"color": {
+						"type": "float4",
+						"value": [
+							0,
+							0,
+							0,
+							0.60000002384185791
+						]
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"offset": {
+						"type": "float2",
+						"value": [
+							4,
+							15
+						]
+					}
+				},
+				"hidden": [
+					"bypass"
+				],
+				"name": "Drop Shadow"
+			},
+			"53": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "A star is used to generate the spokes in the background."
+					}
+				},
+				"bounds": {
+					"height": 77,
+					"width": 170,
+					"x": -711.580810546875,
+					"y": 329.246826171875
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment"
+			},
+			"54": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": -684.048095703125,
+					"y": 956.5413818359375
+				},
+				"class": {
+					"id": "77697265-4db6-4573-8aa7-42362bc44931",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"height": {
+						"type": "float",
+						"value": 0.89999997615814209
+					},
+					"round": {
+						"type": "float4",
+						"value": [
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"width": {
+						"type": "float",
+						"value": 1.52999997138977051
+					}
+				},
+				"hidden": [],
+				"name": "Rectangle"
+			},
+			"6": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "This output streams to screen display and Syphon\/Spout."
+					}
+				},
+				"bounds": {
+					"height": 76.02533721923828125,
+					"width": 212.278045654296875,
+					"x": 1631.9744873046875,
+					"y": 195.694580078125
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 9"
+			},
+			"7": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "The entire screen is colorized as green."
+					}
+				},
+				"bounds": {
+					"height": 60.15172958374023438,
+					"width": 189.3453826904296875,
+					"x": 279.314605712890625,
+					"y": 231.70452880859375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"8": {
+				"attributes": {
+					"alignment": {
+						"type": "choice",
+						"value": "Left"
+					},
+					"fill": {
+						"type": "bool",
+						"value": true
+					},
+					"font-size": {
+						"type": "number",
+						"value": 19
+					},
+					"text": {
+						"type": "text",
+						"value": "A drop shadow to accentuate the screen inlay"
+					}
+				},
+				"bounds": {
+					"height": 76.2606201171875,
+					"width": 189.3453826904296875,
+					"x": 598.83935546875,
+					"y": 846.21484375
+				},
+				"class": {
+					"id": "77697265-3C1D-467D-A722-0FC566538374",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffd0c117",
+				"constants": {},
+				"hidden": [],
+				"name": "Comment 3"
+			},
+			"9": {
+				"attributes": {
+					"input0-dimensions": {
+						"type": "dimensions",
+						"value": []
+					},
+					"input1-dimensions": {
+						"type": "dimensions",
+						"value": []
+					},
+					"size": {
+						"type": "number",
+						"value": 2
+					}
+				},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": -197.324737548828125,
+					"y": 958.069091796875
+				},
+				"class": {
+					"id": "77697265-9db0-46aa-9442-63bde366b630",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "procedural",
+						"value": null
+					},
+					"input1": {
+						"type": "procedural",
+						"value": null
+					},
+					"smoothing": {
+						"type": "float",
+						"value": 0.04201399907469749
+					}
+				},
+				"hidden": [],
+				"name": "Subtract"
+			}
+		},
+		"ui": {
+			"camera": {
+				"x": -779.5291748046875,
+				"y": -660.80963134765625,
+				"zoom": 0.45223841071128845
+			},
+			"selection": [
+				"39"
+			]
+		}
+	},
+	"resources": {},
+	"ui": {
+		"audio": {
+			"routing": {
+				"in": {},
+				"out": []
+			}
+		},
+		"deviceConnections": {
+			"input": {
+				"31": "Wire Logo"
+			}
+		},
+		"transport": {
+			"bpm": 120,
+			"time-signature": [
+				4,
+				4
+			]
+		},
+		"video": {
+			"routing": {
+				"out": {
+					"Display 1": null,
+					"Display 2": null,
+					"Display 3": null,
+					"Display 4": null
+				}
+			}
+		}
+	}
+}
