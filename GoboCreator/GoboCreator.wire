@@ -1748,16 +1748,6 @@
 			},
 			{
 				"from": [
-					326,
-					"output0"
-				],
-				"to": [
-					49,
-					"input"
-				]
-			},
-			{
-				"from": [
 					71,
 					"output"
 				],
@@ -1965,6 +1955,66 @@
 					290,
 					"input3"
 				]
+			},
+			{
+				"from": [
+					326,
+					"output0"
+				],
+				"to": [
+					345,
+					"input1"
+				]
+			},
+			{
+				"from": [
+					345,
+					"output"
+				],
+				"to": [
+					49,
+					"input"
+				]
+			},
+			{
+				"from": [
+					346,
+					"output0"
+				],
+				"to": [
+					350,
+					"input"
+				]
+			},
+			{
+				"from": [
+					351,
+					"output"
+				],
+				"to": [
+					345,
+					"input2"
+				]
+			},
+			{
+				"from": [
+					345,
+					"output"
+				],
+				"to": [
+					346,
+					"input0"
+				]
+			},
+			{
+				"from": [
+					350,
+					"output0"
+				],
+				"to": [
+					351,
+					"input"
+				]
 			}
 		],
 		"inputOrder": [
@@ -2050,7 +2100,7 @@
 			"url": "www.freudundlight.de",
 			"vendor": "Freud und Light"
 		},
-		"nextNodeId": 345,
+		"nextNodeId": 358,
 		"nodes": {
 			"10": {
 				"attributes": {
@@ -8793,10 +8843,10 @@
 					"index": {
 						"type": "integer",
 						"value": [
-							35,
-							10,
-							38,
-							84
+							31,
+							8,
+							17,
+							83
 						]
 					}
 				},
@@ -9014,7 +9064,7 @@
 				"constants": {
 					"input0": {
 						"type": "integer",
-						"value": 0
+						"value": 1
 					},
 					"input1": {
 						"type": "integer",
@@ -9299,7 +9349,7 @@
 				"constants": {
 					"input": {
 						"type": "integer",
-						"value": 0
+						"value": 1
 					}
 				},
 				"hidden": [
@@ -9512,23 +9562,23 @@
 				"constants": {
 					"input0": {
 						"type": "integer",
-						"value": 5
+						"value": 348
 					},
 					"input1": {
 						"type": "integer",
-						"value": 10
+						"value": 697
 					},
 					"input2": {
 						"type": "integer",
-						"value": 21
+						"value": 1394
 					},
 					"input3": {
 						"type": "integer",
-						"value": 42
+						"value": 2788
 					},
 					"input4": {
 						"type": "integer",
-						"value": 84
+						"value": 5577
 					},
 					"selection": {
 						"type": "integer",
@@ -10606,6 +10656,277 @@
 				"name": "Shuffle",
 				"thumbnail_visible": true
 			},
+			"345": {
+				"attributes": {
+					"bitdepth": {
+						"type": "integer",
+						"value": 0
+					},
+					"input-count": {
+						"type": "integer",
+						"value": 2
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"resolution-absolute": {
+						"type": "float2",
+						"value": [
+							1920,
+							1080
+						]
+					},
+					"resolution-mode": {
+						"type": "integer",
+						"value": 0
+					},
+					"resolution-relative": {
+						"type": "float2",
+						"value": [
+							1,
+							1
+						]
+					}
+				},
+				"bounds": {
+					"height": 131,
+					"width": 195,
+					"x": 5502.3984375,
+					"y": 198.166748046875
+				},
+				"class": {
+					"id": "77697265-A270-4D60-911C-A88B1BE6369A",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"input1": {
+						"type": "texture2d",
+						"value": null
+					},
+					"input2": {
+						"type": "texture2d",
+						"value": null
+					},
+					"mode": {
+						"type": "integer",
+						"value": 11
+					},
+					"opacity1": {
+						"type": "float",
+						"value": 1
+					},
+					"opacity2": {
+						"type": "float",
+						"value": 0
+					}
+				},
+				"hidden": [
+					"bypass",
+					"input-count",
+					"mode",
+					"resolution-mode",
+					"resolution-relative",
+					"resolution-absolute",
+					"bitdepth",
+					"instances"
+				],
+				"name": "Video Mixer",
+				"thumbnail_visible": true
+			},
+			"346": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input0-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"interpolation": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 30,
+					"width": 195,
+					"x": 5324.55419921875,
+					"y": 28.70828819274902344
+				},
+				"class": {
+					"id": "77697265-4BEE-483F-9F28-1BA5F21193DB",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input0": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [
+					"interpolation",
+					"flow",
+					"input0-type",
+					"instances"
+				],
+				"name": "Delay",
+				"thumbnail_visible": true
+			},
+			"350": {
+				"attributes": {
+					"anchor-type": {
+						"type": "type",
+						"value": "float2"
+					},
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"input-type": {
+						"type": "type",
+						"value": "texture2d"
+					},
+					"instances": {
+						"type": "integer",
+						"value": 1
+					},
+					"rotation-type": {
+						"type": "type",
+						"value": "float"
+					},
+					"scale-type": {
+						"type": "type",
+						"value": "float2"
+					},
+					"translation-type": {
+						"type": "type",
+						"value": "float2"
+					}
+				},
+				"bounds": {
+					"height": 131,
+					"width": 195,
+					"x": 5583.63720703125,
+					"y": 28.34919548034667969
+				},
+				"class": {
+					"id": "77697265-9225-4009-9D2D-5F898E94CC33",
+					"version": 2
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"anchor": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"rotation": {
+						"type": "float",
+						"value": 1.12999999523162842
+					},
+					"scale": {
+						"type": "float2",
+						"value": [
+							1.70000004768371582,
+							1.71000003814697266
+						]
+					},
+					"translation": {
+						"type": "float2",
+						"value": [
+							0,
+							0
+						]
+					}
+				},
+				"hidden": [
+					"flow",
+					"instances",
+					"input-type",
+					"translation-type",
+					"rotation-type",
+					"scale-type",
+					"anchor-type"
+				],
+				"name": "Transform",
+				"thumbnail_visible": true
+			},
+			"351": {
+				"attributes": {
+					"instances": {
+						"type": "integer",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 131,
+					"width": 195,
+					"x": 5879.08544921875,
+					"y": 29.45573043823242188
+				},
+				"class": {
+					"id": "77697265-5F11-465D-9E83-A3CF5A50D8E8",
+					"version": 1
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"blur": {
+						"type": "float",
+						"value": 0
+					},
+					"bypass": {
+						"type": "bool",
+						"value": false
+					},
+					"distance": {
+						"type": "float2",
+						"value": [
+							0.30000001192092896,
+							0.30000001192092896
+						]
+					},
+					"gaussian": {
+						"type": "float",
+						"value": 0.39642798900604248
+					},
+					"input": {
+						"type": "texture2d",
+						"value": null
+					},
+					"quality": {
+						"type": "float",
+						"value": 0.11821799725294113
+					}
+				},
+				"hidden": [
+					"bypass",
+					"instances"
+				],
+				"name": "Blur",
+				"thumbnail_visible": true
+			},
 			"40": {
 				"attributes": {
 					"flow": {
@@ -11010,8 +11331,8 @@
 				"bounds": {
 					"height": 82,
 					"width": 132,
-					"x": 5091.2607421875,
-					"y": 207.997528076171875
+					"x": 6040.7841796875,
+					"y": 201.8978118896484375
 				},
 				"class": {
 					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
@@ -11460,7 +11781,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 1.29999995231628418
+						"value": 4.88834285736083984
 					}
 				},
 				"hidden": [
@@ -11531,7 +11852,7 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.20000000298023224
+						"value": 0.07239100337028503
 					}
 				},
 				"hidden": [
@@ -12581,13 +12902,11 @@
 		},
 		"ui": {
 			"camera": {
-				"x": 3122.97900390625,
-				"y": 61.3798065185546875,
-				"zoom": 0.68033671379089355
+				"x": 5025.93701171875,
+				"y": -180.7884063720703125,
+				"zoom": 0.90371119976043701
 			},
-			"selection": [
-				"344"
-			]
+			"selection": []
 		}
 	},
 	"resources": {},
