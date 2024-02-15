@@ -239,7 +239,7 @@
 				"name": "Wire",
 				"version": {
 					"major": 7,
-					"minor": 15,
+					"minor": 16,
 					"patch": 0
 				}
 			},
@@ -455,7 +455,7 @@
 					},
 					"input1": {
 						"type": "float",
-						"value": 63
+						"value": 96
 					},
 					"input2": {
 						"type": "float",
@@ -1279,7 +1279,7 @@
 				"constants": {
 					"input0": {
 						"type": "integer",
-						"value": 3
+						"value": 0
 					},
 					"input1": {
 						"type": "integer",
@@ -1300,11 +1300,13 @@
 		},
 		"ui": {
 			"camera": {
-				"x": -516.91680908203125,
-				"y": -563.732666015625,
-				"zoom": 0.52108865976333618
+				"x": -370.0526123046875,
+				"y": -1025.474609375,
+				"zoom": 0.45884022116661072
 			},
-			"selection": []
+			"selection": [
+				"21"
+			]
 		}
 	},
 	"resources": {},
@@ -1330,7 +1332,8 @@
 				"out": {
 					"Display 1": null,
 					"Display 2": null,
-					"Display 3": null
+					"Display 3": null,
+					"Display 4": null
 				}
 			}
 		}

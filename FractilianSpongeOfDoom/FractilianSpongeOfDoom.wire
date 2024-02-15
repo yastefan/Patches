@@ -8,47 +8,171 @@
 		"connections": [
 			{
 				"from": [
-					3,
+					4,
+					"seconds"
+				],
+				"to": [
+					0,
+					"time"
+				]
+			},
+			{
+				"from": [
+					0,
 					"output"
 				],
 				"to": [
-					4,
+					2,
 					"input"
 				]
 			},
 			{
 				"from": [
-					5,
-					"seconds"
+					139,
+					"output"
 				],
 				"to": [
-					3,
-					"time"
+					0,
+					"scale"
+				]
+			},
+			{
+				"from": [
+					140,
+					"output"
+				],
+				"to": [
+					0,
+					"rate"
+				]
+			},
+			{
+				"from": [
+					141,
+					"output"
+				],
+				"to": [
+					0,
+					"loops"
+				]
+			},
+			{
+				"from": [
+					142,
+					"output"
+				],
+				"to": [
+					0,
+					"density"
+				]
+			},
+			{
+				"from": [
+					143,
+					"output"
+				],
+				"to": [
+					0,
+					"depth"
+				]
+			},
+			{
+				"from": [
+					144,
+					"output"
+				],
+				"to": [
+					0,
+					"detail"
+				]
+			},
+			{
+				"from": [
+					145,
+					"output"
+				],
+				"to": [
+					0,
+					"Xr"
+				]
+			},
+			{
+				"from": [
+					146,
+					"output"
+				],
+				"to": [
+					0,
+					"Yr"
+				]
+			},
+			{
+				"from": [
+					147,
+					"output"
+				],
+				"to": [
+					0,
+					"Zr"
+				]
+			},
+			{
+				"from": [
+					148,
+					"output"
+				],
+				"to": [
+					0,
+					"R"
+				]
+			},
+			{
+				"from": [
+					149,
+					"output"
+				],
+				"to": [
+					0,
+					"G"
+				]
+			},
+			{
+				"from": [
+					150,
+					"output"
+				],
+				"to": [
+					0,
+					"B"
 				]
 			}
 		],
 		"inputOrder": [
-			78,
-			79,
-			80,
-			81,
-			82,
-			83,
-			84,
-			85,
-			86
+			47,
+			139,
+			140,
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150
 		],
 		"meta": {
 			"author": "Schmiddi",
-			"category": "effect",
-			"description": "",
-			"displayName": "LIDAR",
+			"category": "source",
+			"description": "https:\/\/editor.isf.video\/shaders\/5e7a80447c113618206dee20",
+			"displayName": "FractilianSpongeOfDoom",
 			"editor": {
 				"branch": "",
 				"name": "Wire",
 				"version": "7.13.2.17774"
 			},
-			"identifier": "0465d391-ffd4-4c01-b3a8-47f96dd1c433",
+			"identifier": "30df9940-e6bd-4445-b59d-03e769fd5b2b",
 			"licenseName": "",
 			"mail": "",
 			"quality": 32856,
@@ -60,9 +184,9 @@
 			"url": "",
 			"vendor": ""
 		},
-		"nextNodeId": 87,
+		"nextNodeId": 151,
 		"nodes": {
-			"3": {
+			"0": {
 				"attributes": {
 					"bitdepth": {
 						"type": "choice",
@@ -70,7 +194,7 @@
 					},
 					"fragment-shader": {
 						"type": "resource",
-						"value": "ecedffe74df3b5935b237ea2c268bb80"
+						"value": "0288913fc7793df076281f0a8f71526b"
 					},
 					"resolution": {
 						"type": "choice",
@@ -78,10 +202,10 @@
 					}
 				},
 				"bounds": {
-					"height": 347,
+					"height": 370,
 					"width": 195,
-					"x": 459.2843017578125,
-					"y": 415.46844482421875
+					"x": 202.716827392578125,
+					"y": 119.0713653564453125
 				},
 				"class": {
 					"id": "77697265-4576-4C11-899B-6F11F3275D36",
@@ -90,57 +214,64 @@
 				"clock": "video",
 				"color": "ffff6a00",
 				"constants": {
-					"CHUNKINESS": {
+					"B": {
 						"type": "float",
-						"value": -8
+						"value": 0.66699999570846558
 					},
-					"DEPTH": {
+					"G": {
 						"type": "float",
-						"value": 50
+						"value": 0.15000000596046448
 					},
-					"EXTRUSION": {
+					"R": {
 						"type": "float",
-						"value": 0.10000000149011612
+						"value": 0.05000000074505806
 					},
-					"GAMMA": {
+					"Xr": {
 						"type": "float",
-						"value": 2.20000004768371582
+						"value": -0.00100000004749745
 					},
-					"OVERLOAD": {
+					"Yr": {
 						"type": "float",
-						"value": 0
+						"value": 0.00100000004749745
 					},
-					"SAMPLERADIUS": {
+					"Zr": {
 						"type": "float",
-						"value": 12
-					},
-					"SAMPLES": {
-						"type": "float",
-						"value": 64
-					},
-					"TIMEDILATION": {
-						"type": "float",
-						"value": 1
-					},
-					"TIMEOFFSET": {
-						"type": "float",
-						"value": 0.5
-					},
-					"WARPFACTORA": {
-						"type": "float",
-						"value": 0.10000000149011612
-					},
-					"WARPFACTORB": {
-						"type": "float",
-						"value": 0
+						"value": 0.00100000004749745
 					},
 					"bypass": {
 						"type": "bool",
 						"value": false
 					},
-					"iChannel0": {
-						"type": "texture2d",
-						"value": null
+					"density": {
+						"type": "float",
+						"value": 1.5
+					},
+					"depth": {
+						"type": "float",
+						"value": 12
+					},
+					"detail": {
+						"type": "float",
+						"value": 0.00100000004749745
+					},
+					"lightpos": {
+						"type": "float2",
+						"value": [
+							1,
+							-20
+						]
+					},
+					"loops": {
+						"type": "float",
+						"value": 20
+					},
+					"rate": {
+						"type": "float",
+						"value": 3
+					},
+					"scale": {
+						"type": "float",
+						"value": 1.5
 					},
 					"time": {
 						"type": "float",
@@ -152,103 +283,7 @@
 				],
 				"name": "ISF"
 			},
-			"4": {
-				"attributes": {
-					"instances": {
-						"type": "number",
-						"value": 1
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 132,
-					"x": 711.8177490234375,
-					"y": 415.46844482421875
-				},
-				"class": {
-					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffff6a00",
-				"constants": {
-					"input": {
-						"type": "texture2d",
-						"value": null
-					}
-				},
-				"hidden": [],
-				"name": "Texture Out"
-			},
-			"5": {
-				"attributes": {},
-				"bounds": {
-					"height": 106,
-					"width": 195,
-					"x": 152.77655029296875,
-					"y": 414.49676513671875
-				},
-				"class": {
-					"id": "77697265-896F-4C6D-AF54-35624F8E23D8",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffff6a00",
-				"constants": {},
-				"hidden": [],
-				"name": "Transport Time"
-			},
-			"78": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"has-max": {
-						"type": "bool",
-						"value": true
-					},
-					"has-min": {
-						"type": "bool",
-						"value": true
-					},
-					"instances": {
-						"type": "number",
-						"value": 1
-					},
-					"max": {
-						"type": "number",
-						"value": 100
-					},
-					"min": {
-						"type": "number",
-						"value": 1
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 219.62518310546875,
-					"y": 581.16448974609375
-				},
-				"class": {
-					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffff6a00",
-				"constants": {
-					"input": {
-						"type": "float",
-						"value": 40
-					}
-				},
-				"hidden": [
-					"input"
-				],
-				"name": "Scale"
-			},
-			"79": {
+			"139": {
 				"attributes": {
 					"flow": {
 						"type": "flow",
@@ -272,14 +307,14 @@
 					},
 					"min": {
 						"type": "number",
-						"value": 0
+						"value": 0.5
 					}
 				},
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 219.62518310546875,
-					"y": 683.16448974609375
+					"x": -116.28755950927734375,
+					"y": 294.3726806640625
 				},
 				"class": {
 					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
@@ -290,7 +325,57 @@
 				"constants": {
 					"input": {
 						"type": "float",
+						"value": 1.5
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Scale"
+			},
+			"140": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
 						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 5
+					},
+					"min": {
+						"type": "number",
+						"value": -5
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 396.3726806640625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 3
 					}
 				},
 				"hidden": [
@@ -298,7 +383,7 @@
 				],
 				"name": "Rate"
 			},
-			"80": {
+			"141": {
 				"attributes": {
 					"flow": {
 						"type": "flow",
@@ -318,18 +403,18 @@
 					},
 					"max": {
 						"type": "number",
-						"value": 0.5
+						"value": 40
 					},
 					"min": {
 						"type": "number",
-						"value": 0.00999999977648258
+						"value": 6
 					}
 				},
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 219.62518310546875,
-					"y": 785.16448974609375
+					"x": -116.28755950927734375,
+					"y": 498.3726806640625
 				},
 				"class": {
 					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
@@ -340,165 +425,15 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.10000000149011612
+						"value": 20
 					}
 				},
 				"hidden": [
 					"input"
 				],
-				"name": "Gravity"
+				"name": "Loops"
 			},
-			"81": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"has-max": {
-						"type": "bool",
-						"value": true
-					},
-					"has-min": {
-						"type": "bool",
-						"value": true
-					},
-					"instances": {
-						"type": "number",
-						"value": 1
-					},
-					"max": {
-						"type": "number",
-						"value": 0.5
-					},
-					"min": {
-						"type": "number",
-						"value": 0.00100000004749745
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 219.62518310546875,
-					"y": 887.16448974609375
-				},
-				"class": {
-					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffff6a00",
-				"constants": {
-					"input": {
-						"type": "float",
-						"value": 0.15000000596046448
-					}
-				},
-				"hidden": [
-					"input"
-				],
-				"name": "Density"
-			},
-			"82": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"has-max": {
-						"type": "bool",
-						"value": true
-					},
-					"has-min": {
-						"type": "bool",
-						"value": true
-					},
-					"instances": {
-						"type": "number",
-						"value": 1
-					},
-					"max": {
-						"type": "number",
-						"value": 100
-					},
-					"min": {
-						"type": "number",
-						"value": 2
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 219.62518310546875,
-					"y": 989.16448974609375
-				},
-				"class": {
-					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffff6a00",
-				"constants": {
-					"input": {
-						"type": "float",
-						"value": 16
-					}
-				},
-				"hidden": [
-					"input"
-				],
-				"name": "Fade"
-			},
-			"83": {
-				"attributes": {
-					"flow": {
-						"type": "flow",
-						"value": "signal"
-					},
-					"has-max": {
-						"type": "bool",
-						"value": true
-					},
-					"has-min": {
-						"type": "bool",
-						"value": true
-					},
-					"instances": {
-						"type": "number",
-						"value": 1
-					},
-					"max": {
-						"type": "number",
-						"value": 0.99900001287460327
-					},
-					"min": {
-						"type": "number",
-						"value": 0.25
-					}
-				},
-				"bounds": {
-					"height": 82,
-					"width": 130,
-					"x": 219.62518310546875,
-					"y": 1091.16455078125
-				},
-				"class": {
-					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
-					"version": 0
-				},
-				"clock": "video",
-				"color": "ffff6a00",
-				"constants": {
-					"input": {
-						"type": "float",
-						"value": 0.89999997615814209
-					}
-				},
-				"hidden": [
-					"input"
-				],
-				"name": "Jitter"
-			},
-			"84": {
+			"142": {
 				"attributes": {
 					"flow": {
 						"type": "flow",
@@ -522,14 +457,14 @@
 					},
 					"min": {
 						"type": "number",
-						"value": 0.10000000149011612
+						"value": 1
 					}
 				},
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 219.62518310546875,
-					"y": 1193.16455078125
+					"x": -116.28755950927734375,
+					"y": 600.3726806640625
 				},
 				"class": {
 					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
@@ -540,15 +475,15 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.94999998807907104
+						"value": 1.5
 					}
 				},
 				"hidden": [
 					"input"
 				],
-				"name": "Depth"
+				"name": "Density"
 			},
-			"85": {
+			"143": {
 				"attributes": {
 					"flow": {
 						"type": "flow",
@@ -568,18 +503,18 @@
 					},
 					"max": {
 						"type": "number",
-						"value": 1
+						"value": 20
 					},
 					"min": {
 						"type": "number",
-						"value": 0
+						"value": 6
 					}
 				},
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 219.62518310546875,
-					"y": 1295.16455078125
+					"x": -116.28755950927734375,
+					"y": 702.3726806640625
 				},
 				"class": {
 					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
@@ -590,20 +525,412 @@
 				"constants": {
 					"input": {
 						"type": "float",
-						"value": 0.75
+						"value": 12
 					}
 				},
 				"hidden": [
 					"input"
 				],
-				"name": "Multiply"
+				"name": "Depth"
 			},
-			"86": {
+			"144": {
 				"attributes": {
 					"flow": {
 						"type": "flow",
 						"value": "signal"
 					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.10000000149011612
+					},
+					"min": {
+						"type": "number",
+						"value": 0.00009999999747379
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 804.3726806640625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.00100000004749745
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Detail"
+			},
+			"145": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.00100000004749745
+					},
+					"min": {
+						"type": "number",
+						"value": -0.00100000004749745
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 906.3726806640625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": -0.00100000004749745
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Xr"
+			},
+			"146": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.00100000004749745
+					},
+					"min": {
+						"type": "number",
+						"value": -0.00100000004749745
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 1008.3726806640625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.00100000004749745
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Yr"
+			},
+			"147": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.00100000004749745
+					},
+					"min": {
+						"type": "number",
+						"value": -0.00100000004749745
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 1110.3726806640625
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.00100000004749745
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "Zr"
+			},
+			"148": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.75
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 1212.37255859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.05000000074505806
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "R"
+			},
+			"149": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.75
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 1314.37255859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.15000000596046448
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "G"
+			},
+			"150": {
+				"attributes": {
+					"flow": {
+						"type": "flow",
+						"value": "signal"
+					},
+					"has-max": {
+						"type": "bool",
+						"value": true
+					},
+					"has-min": {
+						"type": "bool",
+						"value": true
+					},
+					"instances": {
+						"type": "number",
+						"value": 1
+					},
+					"max": {
+						"type": "number",
+						"value": 0.75
+					},
+					"min": {
+						"type": "number",
+						"value": 0
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 130,
+					"x": -116.28755950927734375,
+					"y": 1416.37255859375
+				},
+				"class": {
+					"id": "77697265-D235-4A6A-B661-02ABE55C72FF",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "float",
+						"value": 0.66699999570846558
+					}
+				},
+				"hidden": [
+					"input"
+				],
+				"name": "B"
+			},
+			"2": {
+				"attributes": {
+					"instances": {
+						"type": "number",
+						"value": 1
+					}
+				},
+				"bounds": {
+					"height": 82,
+					"width": 132,
+					"x": 469.135345458984375,
+					"y": 123.645050048828125
+				},
+				"class": {
+					"id": "77697265-BEEA-4D38-8EE5-0EBA4CBD0AEE",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {
+					"input": {
+						"type": "texture2d",
+						"value": null
+					}
+				},
+				"hidden": [],
+				"name": "Texture Out"
+			},
+			"4": {
+				"attributes": {},
+				"bounds": {
+					"height": 106,
+					"width": 195,
+					"x": -220.316253662109375,
+					"y": 152.052947998046875
+				},
+				"class": {
+					"id": "77697265-896F-4C6D-AF54-35624F8E23D8",
+					"version": 0
+				},
+				"clock": "video",
+				"color": "ffff6a00",
+				"constants": {},
+				"hidden": [],
+				"name": "Transport Time"
+			},
+			"47": {
+				"attributes": {
 					"instances": {
 						"type": "number",
 						"value": 1
@@ -612,42 +939,42 @@
 				"bounds": {
 					"height": 82,
 					"width": 130,
-					"x": 219.62518310546875,
-					"y": 1397.16455078125
+					"x": -155.795501708984375,
+					"y": 40.84662628173828125
 				},
 				"class": {
-					"id": "77697265-999C-4F8B-8B9D-3646DC68AA69",
+					"id": "77697265-B2A2-4C1C-8C4C-2915D78CC8E9",
 					"version": 0
 				},
 				"clock": "video",
 				"color": "ffff6a00",
 				"constants": {
 					"input": {
-						"type": "bool",
-						"value": false
+						"type": "texture2d",
+						"value": null
 					}
 				},
 				"hidden": [
 					"input"
 				],
-				"name": "Cells"
+				"name": "Texture In"
 			}
 		},
 		"ui": {
 			"camera": {
-				"x": -58.45832061767578125,
-				"y": 33.62159347534179688,
-				"zoom": 0.73144274950027466
+				"x": -188.8228912353515625,
+				"y": -48.64673233032226562,
+				"zoom": 0.9389609694480896
 			},
 			"selection": []
 		}
 	},
 	"resources": {
 		"isf": {
-			"ecedffe74df3b5935b237ea2c268bb80": {
+			"0288913fc7793df076281f0a8f71526b": {
 				"local": true,
-				"name": "isf",
-				"path": "isf.isf"
+				"name": "ISF",
+				"path": "ISF.isf"
 			}
 		}
 	},
@@ -659,7 +986,9 @@
 			}
 		},
 		"deviceConnections": {
-			"input": {}
+			"input": {
+				"47": "Test Card"
+			}
 		},
 		"transport": {
 			"bpm": 120,
